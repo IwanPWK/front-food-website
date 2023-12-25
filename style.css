@@ -204,3 +204,55 @@ html::-webkit-scrollbar {
   border: 2px solid white;
 }
 /* Order Section End */
+
+/* Review Section Start */
+.review {
+  padding: 100px 11% 100px;
+}
+.review p {
+  margin-bottom: 15px;
+}
+.review .card {
+  border: none;
+}
+.review .rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.review h3 {
+  font-size: 16px;
+  color: #e53937;
+  font-weight: 550;
+}
+.review h2 {
+  font-weight: 600;
+}
+.review .container {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.review h5 {
+  display: inline-block;
+  background-color: orange;
+  border-radius: 5px;
+}
+.review h5 a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.review h5 img {
+  border-radius: 5px;
+}
+
+@media screen and(max-width: 636px) {
+  .review h3 {
+    margin-top: 10px;
+  }
+}
+/* Review Section End */
