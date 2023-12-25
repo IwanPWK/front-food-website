@@ -169,3 +169,38 @@ html::-webkit-scrollbar {
   cursor: pointer;
 }
 /* Our Menu End */
+
+/* Order Section Start */
+.order {
+  padding: 100px 11% 100px;
+}
+.order .card {
+  border: none;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.heading span {
+  color: #e53937;
+}
+.order textarea {
+  resize: none;
+}
+.order-btn {
+  padding: 6px;
+  margin-top: 30px;
+  background: transparent;
+  border: 2px solid #e53937;
+  border-radius: 5px;
+  color: #e53937;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.order-btn:hover {
+  background: #e53937;
+  color: white;
+  border: 2px solid white;
+}
+/* Order Section End */
