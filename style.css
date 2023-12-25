@@ -256,3 +256,53 @@ html::-webkit-scrollbar {
   }
 }
 /* Review Section End */
+
+/* Contact Section Start */
+.contact {
+  padding: 100px 11% 100px;
+}
+.contact .col-md-5 {
+  background-image: linear-gradient(to right, #e53937, #ffcc00);
+  border-radius: 10px;
+  color: white;
+}
+.contact h3 {
+  margin-top: 30px;
+}
+.contact i span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* Contact Section End */
+
+/* Footer Start */
+#footer {
+  padding: 15px 11% 15px;
+}
+#footer .f-content {
+  text-align: center;
+}
+.f-logo img {
+  width: 250px;
+  cursor: pointer;
+}
+.f-content i {
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.f-content i:hover {
+  background: #e53937;
+  color: white;
+  border-radius: 5px;
+}
+.c-content {
+  text-align: center;
+}
+.c-content span a {
+  text-decoration: none;
+  color: #e53937;
+}
+/* Footer End */
